@@ -1,0 +1,23 @@
+{
+    "testimonials":[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "designation": "CEO, Company ABC",
+    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies purus in fermentum placerat."
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "designation": "Marketing Manager, XYZ Corp",
+    "testimonial": "Sed vehicula ex vitae enim mattis, et convallis nisi ultrices. In feugiat bibendum risus, at lacinia velit."
+  },
+  {
+    "id": 3,
+    "name": "Alex Johnson",
+    "designation": "CTO, Tech Solutions Inc.",
+    "testimonial": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras eu enim id mi tincidunt ultricies."
+  }
+]
+
+}

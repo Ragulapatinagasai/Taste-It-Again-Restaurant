@@ -1,0 +1,27 @@
+{
+  "offers": [
+    {
+      "src": "/banner3.webp",
+      "alt": "immage2"
+    },
+    {
+      "src": "/banner5.jpg",
+      "alt": "immage3"  
+    },
+    {
+      "src": "/banner6.jpg",
+      "alt": "immage4"
+    },
+    {
+      "src": "/banner7.jpg",
+      "alt": "immage5"
+    },{
+      "src": "/banner1.avif",
+      "alt": "immage5"
+    },
+    {
+      "src": "/banner2.jpg",
+      "alt": "immage6"
+    }
+  ]
+}

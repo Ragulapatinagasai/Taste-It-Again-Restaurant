@@ -1,0 +1,32 @@
+.corosel_container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+
+.corosel_img {
+    width: calc(100% / 4);
+    padding: 20px;
+    border-radius: 20%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.corosel_container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+    100% {
+        transform: translateX(-50%);
+    }
+}

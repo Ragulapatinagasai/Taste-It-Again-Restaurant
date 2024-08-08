@@ -1,0 +1,43 @@
+.body2 {
+    background-color: #222831;
+}
+
+.home .hr1 {
+    display: block;
+    height: 5px;
+    margin: 0%;
+}
+
+.time {
+    /* display: grid;
+    grid-template-columns: 300px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.time span {
+    margin: auto;
+    width: 300px;
+}
+
+.time_text {
+    color: rgb(7, 6, 2);
+    font-size: 1.37rem;
+}
+
+/* .time span hr {
+    display: block;
+    height: 5px;
+} */
+.time span hr {
+    display: block;
+    height: 5px;
+
+}
+
+.time span h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+}

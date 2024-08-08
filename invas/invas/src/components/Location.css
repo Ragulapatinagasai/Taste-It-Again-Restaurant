@@ -1,0 +1,39 @@
+.mapbox {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    /* Add some gap between elements */
+}
+
+.desc {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+    gap: 20px;
+    /* Add some gap between elements */
+}
+
+.desc div {
+    font-family: 'invas';
+    color: black;
+    /* Change text color to black for better visibility */
+    padding: 20px;
+    /* Increase padding for better spacing */
+    background-color: #ffd700;
+    /* Add background color */
+    border-radius: 10px;
+    /* Add border-radius for rounded corners */
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.map img {
+    max-width: 100%;
+    /* Ensure image doesn't exceed container width */
+    height: 100%;
+}

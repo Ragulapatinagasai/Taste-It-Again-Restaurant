@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: invas; */
+
+}
+
+@font-face {
+    font-family: 'invas';
+    src: url(/font.ttf);
+}
+
+
+body {
+    background-color: #222831;
+    padding: 0%;
+    color: #EEEEEE;
+}

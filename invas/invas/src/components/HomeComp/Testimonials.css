@@ -1,0 +1,58 @@
+.testimonials-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.testimonials-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    perspective: 1000px;
+    /* Add perspective for 3D effect */
+}
+
+.testimonial {
+    font-size: 2rem;
+    background-color: #393E46;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    transform-style: preserve-3d;
+    /* Preserve 3D transforms */
+    transform: translateZ(50px);
+    /* Initial translation on Z-axis */
+    transition: transform 0.5s;
+    /* Add transition for smooth animation */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    /* Add black shadow */
+}
+
+.testimonial:hover {
+    transform: translateZ(100px) rotateY(10deg);
+    /* Apply 3D transform on hover */
+}
+
+.testimonial-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.testimonial-designation {
+    font-style: italic;
+    color: #666;
+}

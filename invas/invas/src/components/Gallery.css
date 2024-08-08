@@ -1,0 +1,33 @@
+.gallery-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery-title {
+    text-align: center;
+    color: #ffd700;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover .gallery-image {
+    transform: scale(1.1);
+}

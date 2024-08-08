@@ -1,0 +1,74 @@
+{
+  "breakfast": [
+    {
+      "name": "Item 1",
+      "image": "/food1.jpg",
+      "price": 5.99,
+      "description": "Scrambled eggs with toast"
+    },
+    {
+      "name": "Item 2",
+      "image": "/food2.jpg",
+      "price": 6.49,
+      "description": "Pancakes with maple syrup"
+    },
+    {
+      "name": "Item Y",
+      "image": "/food1.jpg",
+      "price": 11.49,
+      "description": "Omelette with vegetables"
+    },
+    {
+      "name": "Item 3",
+      "image": "/food3.jpg",
+      "price": 4.99,
+      "description": "Fruit salad"
+    }
+  ],
+  "lunch": [
+    {
+      "name": "Item A",
+      "image": "/food4.jpg",
+      "price": 8.99,
+      "description": "Grilled chicken salad"
+    },
+    {
+      "name": "Item Y",
+      "image": "/food1.jpg",
+      "price": 11.49,
+      "description": "Vegetarian wrap"
+    },
+    {
+      "name": "Item B",
+      "image": "/food5.jpg",
+      "price": 7.49,
+      "description": "Beef burger with fries"
+    },
+    {
+      "name": "Item C",
+      "image": "/food6.jpg",
+      "price": 9.99,
+      "description": "Spaghetti with marinara sauce"
+    }
+  ],
+  "dinner": [
+    {
+      "name": "Item X",
+      "image": "/food7.jpg",
+      "price": 12.99,
+      "description": "Grilled salmon with steamed vegetables"
+    },
+    {
+      "name": "Item Y",
+      "image": "/food1.jpg",
+      "price": 11.49,
+      "description": "Stir-fried tofu with rice"
+    },
+    {
+      "name": "Item Z",
+      "image": "/food2.jpg",
+      "price": 14.99,
+      "description": "Beef steak with mashed potatoes"
+    }
+  ]
+}

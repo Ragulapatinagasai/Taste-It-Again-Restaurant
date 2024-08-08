@@ -1,0 +1,47 @@
+.body {
+    background-color: #000000;
+    color: #ffd700;
+    height: 100%;
+}
+
+.login-container {
+    margin-top: 5%;
+}
+
+.login-form {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.login-form label {
+    color: #ffd700;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"] {
+    background-color: #ffd700;
+    color: #000000;
+    border: 1px solid #ffd700;
+}
+
+.login-form input[type="submit"] {
+    background-color: #ffd700;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #c7a500;
+}
+
+.signup-link {
+    color: #ffd700;
+}
+
+.form-group {
+    margin: 10px auto;
+}
