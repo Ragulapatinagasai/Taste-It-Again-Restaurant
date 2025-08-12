@@ -11,13 +11,16 @@ class Contact extends React.Component {
     });
 
     try {
-      const response = await fetch("http://localhost:3000/submitcontact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
+      const response = await fetch(
+        "https://taste-it-again-restaurant-backend.onrender.com/submitcontact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }
+      );
 
       if (response.ok) {
         alert("Form submitted successfully.");

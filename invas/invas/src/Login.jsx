@@ -24,10 +24,13 @@ function Login() {
     const { email, password } = formData;
 
     try {
-      const response = await axios.post("http://localhost:3000/loginuser", {
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://taste-it-again-restaurant-backend.onrender.com/loginuser",
+        {
+          email,
+          password,
+        }
+      );
       console.log(response.data);
       alert("Login successful!");
       setIsLoggedIn(true); // Set login status to true upon successful login

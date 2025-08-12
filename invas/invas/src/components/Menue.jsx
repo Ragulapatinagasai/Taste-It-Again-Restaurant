@@ -7,7 +7,7 @@ const Menu = () => {
   const [activeCategory, setActiveCategory] = useState("breakfast");
 
   useEffect(() => {
-    fetch("http://localhost:3000/getitems")
+    fetch("https://taste-it-again-restaurant-backend.onrender.com/getitems")
       .then((response) => response.json())
       .then((data) => {
         setMenu(data);

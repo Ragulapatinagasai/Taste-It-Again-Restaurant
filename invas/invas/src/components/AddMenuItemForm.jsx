@@ -21,7 +21,10 @@ const AddMenuItemForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3000/addmenueitem", formData);
+      await axios.post(
+        "https://taste-it-again-restaurant-backend.onrender.com/addmenueitem",
+        formData
+      );
       // If successful, clear the form
       setFormData({
         foodname: "",

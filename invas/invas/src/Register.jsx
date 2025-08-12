@@ -31,7 +31,7 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/registrenewuser",
+        "https://taste-it-again-restaurant-backend.onrender.com/registrenewuser",
         {
           username,
           email,
