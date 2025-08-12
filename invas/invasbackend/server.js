@@ -99,7 +99,7 @@ app.post("/submitcontact", async (req, res) => {
 });
 
 mongoose
-  .connect("mongodb+srv://sainaga805:leYXX0uVfBlzNIgR@cluster0.wpvhckh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("mongodb+srv://Nagasai:Nagasai1432@cluster0.e03exxd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => {
     console.log("Connected to MongoDB");
     app.listen(PORT, () => {
